@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.content {
+  width: 100%;
+  margin: 3vh auto;
+}
+.form-content,
+.detail-content {
+  color: white;
+  margin: 2vh auto;
+  padding: 2vh;
+  width: 50%;
+  font-weight: 500;
+}
+.form-content input::placeholder {
+  font-weight: 200;
+}
+form .form-content label {
+  color: black;
+}
+form .form-content > .form-label {
+  width: 100%;
+}
+form .detail-content > label {
+  width: 100%;
+}
+.detail-content > label {
+  width: 100%;
+}
+form .form-content input {
+  margin-bottom: 2vh;
+}
+button {
+  margin: 5vh auto;
+  width: 100%;
+}
+#totalbayar {
+  margin-top: 3vh;
+  font-weight: 800;
+}
